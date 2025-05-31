@@ -13,7 +13,7 @@ const icons = {
 };
 
 function initMap() {
-    map = L.map('map').setView([0, 0], 3);
+    map = L.map('map').setView([0, 0], 16);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="https://gravatar.com/floawd">Mahmud R.</a>'
     }).addTo(map);
